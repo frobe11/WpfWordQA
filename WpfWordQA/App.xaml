@@ -1,0 +1,9 @@
+﻿<Application x:Class="WpfWordQA.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:WpfWordQA"
+             StartupUri="RequestAnswerWindow.xaml">
+    <Application.Resources>
+        
+    </Application.Resources>
+</Application>

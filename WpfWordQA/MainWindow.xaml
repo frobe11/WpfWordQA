@@ -1,0 +1,22 @@
+﻿<Window x:Class="WpfWordQA.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfWordQA"
+        mc:Ignorable="d"
+        Title="ILoveXAML" Height="404" Width="607">
+    <Grid Opacity="1" Width="600" Height="400">
+        <Grid.Background>
+            <SolidColorBrush Color="Beige"/>
+        </Grid.Background>
+        <TextBlock Height="100" TextAlignment="Center" FontSize="20" Foreground="Black" Margin="121,37,121,251">
+            <TextBlock.Text>вот так и жиивём вот так и живём вот так и живём вот так и живём</TextBlock.Text>
+        </TextBlock>
+        <TextBox x:Name="Question" TextWrapping="Wrap" Margin="10,141,325,93" Cursor="IBeam" FontFamily="XO Thames" UndoLimit="105" FontSize="15"/>
+        <TextBox x:Name="Answer" TextWrapping="Wrap" Margin="325,141,10,93" Cursor="IBeam" FontFamily="XO Thames" UndoLimit="105" FontSize="15" />
+        <Label x:Name="QLabel" Content="Вопрос" HorizontalAlignment="Left" Margin="121,115,0,0" VerticalAlignment="Top" Background="White"/>
+        <Label x:Name="ALabel" Content="Ответ" HorizontalAlignment="Left" Margin="440,115,0,0" VerticalAlignment="Top" Background="White"/>
+        <Button x:Name="AddQAButton" Content="добавить" HorizontalAlignment="Center" Click="AddQAButton_OnClick" Margin="0,322,0,0" VerticalAlignment="Top" Height="42" Width="115"/>
+    </Grid>
+</Window>
